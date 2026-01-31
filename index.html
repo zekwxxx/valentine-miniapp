@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Валентинка</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<div class="app">
+
+  <!-- Экран 1 -->
+  <section class="screen screen-main active" id="mainScreen">
+    <div class="hearts-bg"></div>
+
+    <h1 class="title">Все валентинки прислали анонимки</h1>
+
+    <div class="heart-img-wrapper" id="heart">
+      <img src="assets/heart.png" alt="heart">
+      <span class="heart-count">10</span>
+    </div>
+
+    <p class="hint">Нажмите на валентинку!</p>
+
+    <button class="btn">Отправить валентинку</button>
+  </section>
+
+  <!-- Экран 2 -->
+  <section class="screen screen-gift" id="giftScreen">
+    <div class="hearts-bg"></div>
+
+    <div class="gift-card">
+      <img src="assets/gift.png" class="gift-img" alt="gift">
+      <h2>Подарок</h2>
+      <p>Подписка Telegram Premium<br>на 1 месяц</p>
+      <button class="btn secondary">Подробнее</button>
+    </div>
+  </section>
+
+</div>
+
+<script src="js/app.js"></script>
+</body>
+</html>
